@@ -1,0 +1,22 @@
+{
+  "name": "react_homework",
+  "version": "1.0.0",
+  "description": "react_homework",
+  "main": "src/index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "jest": "^21.0.2",
+    "react": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2",
+    "redux-form": "^7.0.4",
+    "webpack": "^3.5.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dzmitry siver",
+  "license": "ISC"
+}
