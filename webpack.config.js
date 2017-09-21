@@ -18,7 +18,17 @@ module.exports = {
                 fallback: 'style-loader',
                 use: ['css-loader', 'less-loader']
             })
-        }]
+        }],
+        loaders: [
+            {
+                test: /\.jsx?$/,
+                loader: 'babel-loader',
+                exclude: /node_modules/,
+                query: {
+                    presets: ['es2015', 'react']
+                }
+            }
+        ]
     },
     plugins: [
         new ExtractTextPlugin({
